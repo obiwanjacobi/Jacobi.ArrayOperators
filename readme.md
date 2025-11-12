@@ -102,7 +102,7 @@ if (arr1 > arr2)
 | Operator | Description | Example | Result |
 |----------|-------------|---------|--------|
 | `&` | Element-wise logical AND | `[true, false, true] & [true, true, false]` | `[true, false, false]` |
-| `|` | Element-wise logical OR | `[true, false, false] | [false, false, true]` | `[true, false, true]` |
+| `\|` | Element-wise logical OR | `[true, false, false] | [false, false, true]` \| `[true, false, true]` |
 | `!` | Negates each boolean element | `![true, false, true]` | `[false, true, false]` |
 | `true` | Returns true if all elements are true | `if ([true, true, true])` | `true` |
 | `false` | Returns true if all elements are false | `if (![false, false, false])` | `true` |
