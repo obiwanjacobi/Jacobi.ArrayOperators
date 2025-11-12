@@ -9,6 +9,7 @@
     <Company>Jacobi Software</Company>
     <Description>Array and IEnumerable&lt;T&gt; extensions that allows arithmetic operations on arrays / collections.</Description>
     <Copyright>Copyright (c) 2025 Jacobi Software</Copyright>
+    <Version>1.1.0</Version>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageTags>array-arithmetic</PackageTags>

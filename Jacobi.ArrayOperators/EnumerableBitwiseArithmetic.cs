@@ -8,26 +8,20 @@ public static class EnumerableBitwiseArithmetic
     {
         public static IEnumerable<T> operator <<(IEnumerable<T> source, int shiftAmount)
         {
-            List<T> result = [];
             foreach (var item in source)
-                result.Add(item << shiftAmount);
-            return result;
+                yield return item << shiftAmount;
         }
 
         public static IEnumerable<T> operator >>(IEnumerable<T> source, int shiftAmount)
         {
-            List<T> result = [];
             foreach (var item in source)
-                result.Add(item >> shiftAmount);
-            return result;
+                yield return item >> shiftAmount;
         }
 
         public static IEnumerable<T> operator >>>(IEnumerable<T> source, int shiftAmount)
         {
-            List<T> result = [];
             foreach (var item in source)
-                result.Add(item >>> shiftAmount);
-            return result;
+                yield return item >>> shiftAmount;
         }
     }
 
