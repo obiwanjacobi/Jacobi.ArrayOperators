@@ -14,6 +14,7 @@
     <PackageTags>array-arithmetic</PackageTags>
     <PackageProjectUrl>https://github.com/obiwanjacobi/Jacobi.ArrayOperators</PackageProjectUrl>
     <RepositoryUrl>https://github.com/obiwanjacobi/Jacobi.ArrayOperators</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
