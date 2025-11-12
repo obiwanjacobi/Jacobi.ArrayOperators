@@ -200,7 +200,7 @@ if (arr1 > arr2)
 
 ---
 
-## Method Extension Reference
+## Method Extensions Reference
 
 ### IEnumerable\<T> where T : IFloatingPoint\<T>
 
