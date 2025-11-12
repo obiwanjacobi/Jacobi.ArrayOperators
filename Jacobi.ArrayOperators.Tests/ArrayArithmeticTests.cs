@@ -44,4 +44,21 @@ public class ArrayArithmeticTests
 
         Assert.Equal([1, 2, 3], arr);
     }
+
+    [Fact]
+    public void Increment()
+    {
+        int[] arr = [1, 2, 3];
+        arr++;
+
+        Assert.Equal([2, 3, 4], arr);
+    }
+    [Fact]
+    public void Decrement()
+    {
+        int[] arr = [1, 2, 3];
+        arr--;
+
+        Assert.Equal([0, 1, 2], arr);
+    }
 }

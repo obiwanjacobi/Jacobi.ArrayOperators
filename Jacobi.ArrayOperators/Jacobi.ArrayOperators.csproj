@@ -12,6 +12,8 @@
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageTags>array-arithmetic</PackageTags>
+    <PackageProjectUrl>https://github.com/obiwanjacobi/Jacobi.ArrayOperators</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/obiwanjacobi/Jacobi.ArrayOperators</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
