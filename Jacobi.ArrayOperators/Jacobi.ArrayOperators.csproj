@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Array Operators / Arithmetic</Title>
+    <Company>Jacobi Software</Company>
+    <Description>Array and IEnumerable&lt;T&gt; extensions that allows arithmetic operations on arrays / collections.</Description>
+    <Copyright>Copyright (c) 2025 Jacobi Software</Copyright>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>array-arithmetic</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
