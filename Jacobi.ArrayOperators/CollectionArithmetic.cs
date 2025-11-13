@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace Jacobi.ArrayOperators;
 
-public static class CollectionArithmetic
+public static class CollectionInPlaceArithmetic
 {
     extension<T>(ICollection<T> collection) where T : IIncrementOperators<T>
     {

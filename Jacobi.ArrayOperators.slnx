@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Jacobi.ArrayOperators.Benchmarks/Jacobi.ArrayOperators.Benchmarks.csproj" Id="750b6905-a363-4aca-a580-c7934ceade5b" />
   <Project Path="Jacobi.ArrayOperators.Tests/Jacobi.ArrayOperators.Tests.csproj" Id="fe1588b2-9ef0-4eb2-bf78-80abd99c3856" />
   <Project Path="Jacobi.ArrayOperators/Jacobi.ArrayOperators.csproj" />
 </Solution>
