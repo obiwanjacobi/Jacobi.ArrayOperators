@@ -2,7 +2,7 @@
 
 namespace Jacobi.ArrayOperators;
 
-public static class EnumerableBitArrayArithmetic
+public static class BitArrayArithmetic
 {
     extension(BitArray)
     {

@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Specialized;
-using Jacobi.ArrayOperators;
+﻿using System.Collections.Specialized;
 
 namespace Jacobi.ArrayOperators.Tests;
 
-public class EnumerableBitVector32ArithmeticTests
+public class BitVector32ArithmeticTests
 {
     [Fact]
     public void OpLogicAnd()

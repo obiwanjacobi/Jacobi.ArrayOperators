@@ -3,7 +3,7 @@ using Jacobi.ArrayOperators;
 
 namespace Jacobi.ArrayOperators.Tests;
 
-public class EnumerableBitArrayArithmeticTests
+public class BitArrayArithmeticTests
 {
     [Fact]
     public void OpLogicAnd()

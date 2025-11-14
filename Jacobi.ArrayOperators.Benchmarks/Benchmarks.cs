@@ -92,6 +92,33 @@ namespace Jacobi.ArrayOperators.Benchmarks
         }
 
         [Benchmark]
+        public int[] ArrayShiftLeft()
+        {
+            var result = _arr1 << 3;
+            return result;
+        }
+        [Benchmark]
+        public IList<int> ListShiftLeft()
+        {
+            var result = ((IList<int>)_arr1) << 3;
+            return result;
+        }
+        [Benchmark]
+        public IList<int> CollectionShiftLeft()
+        {
+            var result = ((ICollection<int>)_arr1) << 3;
+            // implemented with List<T> so should be cheap.
+            return result.ToList();
+        }
+        [Benchmark]
+        public IList<int> EnumerableShiftLeft()
+        {
+            var result = ((IEnumerable<int>)_arr1) << 3;
+            // implemented with List<T> so should be cheap.
+            return result.ToList();
+        }
+
+        [Benchmark]
         public int[] ArrayInPlaceScalar()
         {
             _arr1 *= 3;

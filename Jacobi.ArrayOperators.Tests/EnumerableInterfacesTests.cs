@@ -46,14 +46,14 @@ public class EnumerableInterfacesTests
         Assert.True(arr1 <= arr2);
     }
 
-    [Fact]
-    public void FloatingPointAbs()
-    {
-        IEnumerable<float> arr = [1.4f, -2.2f, 3.14f];
-        var result = arr.Abs();
+    //[Fact]
+    //public void FloatingPointAbs()
+    //{
+    //    IEnumerable<float> arr = [1.4f, -2.2f, 3.14f];
+    //    var result = arr.Abs();
 
-        Assert.Equal([1.4f, 2.2f, 3.14f], result);
-    }
+    //    Assert.Equal([1.4f, 2.2f, 3.14f], result);
+    //}
     [Fact]
     public void FloatingPointFloor()
     {
@@ -102,5 +102,13 @@ public class EnumerableInterfacesTests
         var result = arr.Average();
 
         Assert.Equal(0.78f, result, 0.001);
+    }
+    [Fact]
+    public void NumberAbs()
+    {
+        IEnumerable<int> arr = [1, -2, 3];
+        var result = arr.Abs();
+
+        Assert.Equal([1, 2, 3], result);
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Jacobi.ArrayOperators;
 
-public static class EnumerableBitVector32Arithmetic
+public static class BitVector32Arithmetic
 {
     extension(BitVector32)
     {
